@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 1200px;
+  height: 1050px;
+  margin: auto;
+  background: silver;
+}
+
+.menu {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  float: left;
+  width: 8%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: azure;
+}
+
+.menu ul li a:hover {
+  background-color: azure;
+  color: black;
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+  background: bisque;
+  background: url(images/beautiful_scenery_mountains_lake_nature_93318_1280x720.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.banner h1 {
+  text-align: center;
+  color: aliceblue;
+  line-height: 7;
+}
+
+.content {
+  width: 99%;
+  height: 300px;
+  background: cadetblue;
+  display: flex;
+  padding: 5px;
+}
+
+.left {
+  width: 33%;
+  height: 300px;
+  background: skyblue;
+
+}
+
+.left img {
+  width: 100%;
+  height: 150px;
+
+}
+
+.right {
+  width: 33%;
+  height: 300px;
+  background: skyblue;
+  margin-left: 6px;
+}
+
+.right img {
+  width: 100%;
+  height: 150px;
+
+}
+
+.middle {
+  width: 33%;
+  height: 300px;
+  background: skyblue;
+  margin-left: 5px;
+}
+
+.middle img {
+  width: 100%;
+  height: 150px;
+}
+
+.extracontent {
+  width: 100%;
+  height: 400px;
+  background: crimson;
+  display: flex;
+}
+
+.leftcontent {
+  width: 20%;
+  height: 400px;
+  background: slategray;
+
+}
+
+.leftcontent ul {
+  list-style-type: none;
+}
+
+.leftcontent ul li {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.leftcontent ul li a {
+  display: block;
+  text-decoration: none;
+  color: azure;
+}
+
+.leftcontent ul li a:hover {
+  background-color: maroon;
+}
+
+.rightcontent {
+  width: 80%;
+  height: 400px;
+  background: darkgrey;
+  display: flex;
+}
+
+.part1 {
+  width: 33%;
+  height: 400px;
+  background: silver;
+  margin-left: 5px;
+}
+
+.part2 {
+  width: 33%;
+  height: 400px;
+  background: rosybrown;
+  margin-left: 5px;
+}
+
+.part3 {
+  width: 31.5%;
+  height: 400px;
+  background: cornflowerblue;
+  margin-left: 5px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: black;
+}
